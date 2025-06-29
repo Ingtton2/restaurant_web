@@ -43,7 +43,7 @@
 }
 
 .nav-link:hover {
-  color: #667eea;
+  color: #333;
   background: #f8f9fa;
 }
 
@@ -95,25 +95,25 @@
 }
 
 .login-btn {
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #555;
+  border: 2px solid #555;
   background: transparent;
 }
 
 .login-btn:hover {
-  background: #667eea;
+  background: #555;
   color: white;
 }
 
 .signup-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #333;
   color: white;
   border: 2px solid transparent;
 }
 
 .signup-btn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 3px 10px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
 }
 
 @media (max-width: 768px) {

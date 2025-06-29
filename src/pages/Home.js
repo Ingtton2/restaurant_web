@@ -58,7 +58,7 @@ function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1>🍽️ 맛집 탐방기에 오신 것을 환영합니다!</h1>
+          <h1>🍽️ 인슐랭 맛집 가이드에 오신 것을 환영합니다!</h1>
           <p>최고의 맛집들을 발견하고, 평점을 남기고, 지도에서 위치를 확인하세요.</p>
           {!currentUser ? (
             <div className="hero-buttons">
@@ -78,7 +78,7 @@ function Home() {
       <section className="features">
         <div className="section-header">
           <h2>주요 기능</h2>
-          <p>맛집 탐방기만의 특별한 기능들을 만나보세요</p>
+          <p>인슐랭 맛집 가이드만의 특별한 기능들을 만나보세요</p>
         </div>
         <div className="features-grid">
           {features.map((feature, index) => (
@@ -124,7 +124,7 @@ function Home() {
       <section className="cta-section">
         <div className="cta-content">
           <h2>지금 바로 시작하세요!</h2>
-          <p>맛집 탐방기와 함께 새로운 맛집을 발견하고 경험을 공유해보세요.</p>
+          <p>인슐랭 맛집 가이드와 함께 새로운 맛집을 발견하고 경험을 공유해보세요.</p>
           {!currentUser ? (
             <Link to="/signup" className="cta-button primary">무료로 가입하기</Link>
           ) : (

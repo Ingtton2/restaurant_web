@@ -17,7 +17,7 @@ function Navigation() {
       <div className="nav-container">
         <div className="nav-brand">
           <Link to="/">
-            <h1>🍽️ 맛집 탐방기</h1>
+            <h1>🍽️ 인슐랭 맛집 가이드</h1>
           </Link>
         </div>
         

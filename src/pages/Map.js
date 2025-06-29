@@ -127,7 +127,7 @@ function Map() {
     return (
       <div className="map-container">
         <div className="map-header">
-          <h2>🗺️ 맛집 지도</h2>
+          <h2>🗺️ 인슐랭 맛집 가이드 지도</h2>
           <p>지도에서 맛집 위치를 확인하고 클릭하여 상세 정보를 보세요!</p>
         </div>
         <div className="map-wrapper">
@@ -149,7 +149,7 @@ function Map() {
   return (
     <div className="map-container">
       <div className="map-header">
-        <h2>🗺️ 맛집 지도</h2>
+        <h2>🗺️ 인슐랭 맛집 가이드 지도</h2>
         <p>지도에서 맛집 위치를 확인하고 클릭하여 상세 정보를 보세요!</p>
       </div>
 

@@ -4,22 +4,24 @@
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  color: #333;
   padding: 4rem 2rem;
   text-align: center;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: 700;
+  color: #333;
 }
 
 .hero-content p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  opacity: 0.9;
+  color: #666;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -42,8 +44,8 @@
 }
 
 .cta-button.primary {
-  background: white;
-  color: #667eea;
+  background: #333;
+  color: white;
 }
 
 .cta-button.primary:hover {
@@ -53,13 +55,13 @@
 
 .cta-button.secondary {
   background: transparent;
-  color: white;
-  border: 2px solid white;
+  color: #333;
+  border: 2px solid #333;
 }
 
 .cta-button.secondary:hover {
-  background: white;
-  color: #667eea;
+  background: #333;
+  color: white;
   transform: translateY(-3px);
 }
 
@@ -85,7 +87,7 @@
 /* Features Section */
 .features {
   padding: 4rem 2rem;
-  background: #f8f9fa;
+  background: white;
 }
 
 .features-grid {
@@ -97,16 +99,18 @@
 }
 
 .feature-card {
-  background: white;
+  background: #f8f9fa;
   padding: 2rem;
   border-radius: 15px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  border: 1px solid #e9ecef;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 .feature-icon {
@@ -128,7 +132,7 @@
 /* Popular Restaurants Section */
 .popular-restaurants {
   padding: 4rem 2rem;
-  background: white;
+  background: #f8f9fa;
 }
 
 .restaurants-grid {
@@ -145,10 +149,12 @@
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  border: 1px solid #e9ecef;
 }
 
 .restaurant-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 .restaurant-image {
@@ -172,7 +178,7 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: rgba(102, 126, 234, 0.9);
+  background: rgba(51, 51, 51, 0.9);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -210,7 +216,7 @@
 .view-more-btn {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #333;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -220,7 +226,7 @@
 
 .view-more-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .view-all-container {
@@ -230,7 +236,7 @@
 .view-all-btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #333;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -240,26 +246,28 @@
 
 .view-all-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  color: #333;
   padding: 4rem 2rem;
   text-align: center;
+  border-top: 1px solid #dee2e6;
 }
 
 .cta-content h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: #333;
 }
 
 .cta-content p {
   font-size: 1.1rem;
   margin-bottom: 2rem;
-  opacity: 0.9;
+  color: #666;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
